@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Cursor OpenAI API",
+    "vendor": "customendpoint",
+    "apiKey": "local",
+    "apiType": "chat-completions",
+    "models": [
+      {
+        "id": "composer-2.5",
+        "name": "Composer 2.5 (Cursor)",
+        "url": "http://127.0.0.1:18080/v1/chat/completions",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 128000,
+        "maxOutputTokens": 8192
+      }
+    ]
+  }
+]
